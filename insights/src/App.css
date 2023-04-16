@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: row;
+}
+
+.file-upload-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  background-color: #fdcf4e;
+  align-items: center;
+  justify-content: center;
+}
+
+.visualization-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-upload-box {
+  height: 400px;
+  width: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.interactions-container {
+  height: 400px;
+  width: 300px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.file-upload-text {
+  cursor: pointer;
+}
+
+.insights-core-button {
+  cursor: pointer;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-weight: 500;
+  background-color: #fdcf4e;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 18px;
+}

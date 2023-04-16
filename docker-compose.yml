@@ -1,0 +1,16 @@
+# docker-compose.yaml
+version: '3'
+
+services:
+  insights:
+    build:
+      context: ./insights
+      dockerfile: Dockerfile.dev
+    ports:
+      - '3000:3000'
+  api:
+    build: '.'
+    ports:
+      - '5555:5555'
+
+    
