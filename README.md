@@ -4,6 +4,11 @@
 This is a project that aims to enable users to visualize their data.
 Currently the project is very limited in that it supports data represented as `x` and `y` values in a csv file. Essentially you'd have 2 columns in your csv: One called `x` and one called `y` and you can populate numerical values for the same. The project does not support categorical data at this point. Functionality for basic csv file upload has been provided.
 
+# Running the project
+1. This project uses Docker so please install Docker Desktop for your system from https://www.docker.com/products/docker-desktop/ .
+2. Clone the project's code to your local via `git clone git@github.com:shyamspillai/data-visualizer.git`
+3. cd into the project folder and run `docker-compose up`
+
 # Stack
 1. Front End - React
 2. Back End - Flask
@@ -11,7 +16,7 @@ Currently the project is very limited in that it supports data represented as `x
 
 # Known Issues
 1. Error handling in BE and FE is very minimal ( the present implementation only covers limited cases. It is possible essential error handling is missing. )
-2. UI is basic
+2. UI is very basic and non-responsive.
 3. Routing needs to be added
 4. Code is definitely not production ready. This is a dev project at this stage.
 5. Code abstraction, naming conventions and folder structure needs to be reviewed
